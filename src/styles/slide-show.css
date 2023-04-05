@@ -28,6 +28,20 @@ h1 {
     font-style: italic;
 }
 
+.homediv h2 {
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    /* font-style: italic; */
+
+    color: #efd878;
+    text-shadow: 3px 3px #283618;
+    font-style: italic;
+    margin-bottom: 2rem;
+
+}
+
 
 
 h4 {
@@ -45,6 +59,99 @@ h4 {
     text-shadow: 2px 2px #ccd5ae;
     font-style: italic;
 }
+
+.homediv p {
+    color: #efd878;
+    text-shadow: 2px 2px #283618;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 2rem;
+
+}
+
+.mainhome {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: url("../stem.jpg") no-repeat center;
+    max-height: 100vh;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.homediv {
+    margin: 1rem;
+    padding: 10rem;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("../gween.jpg") no-repeat center;
+    background-size: cover;
+
+    /* filter: blur(.3px); */
+    border: 3px solid #efd878;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    /* transition: transform .3s ease-in-out; */
+
+}
+
+
+
+/* 
+.homediv:hover {
+    transform: scale(.9);
+    cursor: pointer;
+} */
+
+.button2 {
+    display: block;
+    padding: 15px 25px;
+    border: 1px solid #283618;
+    border-radius: 25px;
+    width: 30%;
+    margin: 1rem;
+    font-style: italic;
+    font-size: 25px;
+    color: #283618;
+    text-decoration: none;
+    transition: transform .3s ease-in-out;
+
+}
+
+.button2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #ccd5ae;
+
+}
+
+
+
+.buttonhome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #283618;
+    font-style: italic;
+}
+
+
+
+
+
 
 
 

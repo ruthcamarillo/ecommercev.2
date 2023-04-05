@@ -37,6 +37,25 @@ input {
     justify-content: center;
 }
 
+.h2 {
+    display: flex;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    padding-top: 20px;
+    font-size: 60px;
+    letter-spacing: 35px;
+    /* font-style: italic; */
+
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    color: #283618;
+    text-shadow: 2px 2px #ccd5ae;
+    font-style: italic;
+}
+
 
 @media (max-width: 800px) {
     .wrapper__filter {
