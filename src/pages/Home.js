@@ -11,7 +11,6 @@ function Home() {
         <div>
             <SlideShow />
 
-
         </div>
     );
 }
