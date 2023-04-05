@@ -37,9 +37,6 @@ input {
     justify-content: center;
 }
 
-.filterp {
-    color: #283618;
-}
 
 @media (max-width: 800px) {
     .wrapper__filter {
@@ -65,7 +62,7 @@ input {
     }
 
     .searchBar input {
-        width: 80%;
+        width: 60%;
     }
 
     .maxnmin {
