@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecommercev.2/static/css/main.23f4dc21.css",
+    "main.js": "/ecommercev.2/static/js/main.06502033.js",
+    "static/media/gween.jpg": "/ecommercev.2/static/media/gween.f998075ddc6aa30b8ea1.jpg",
+    "static/media/stem.jpg": "/ecommercev.2/static/media/stem.1de08df30c9ca99a9454.jpg",
+    "index.html": "/ecommercev.2/index.html",
+    "main.23f4dc21.css.map": "/ecommercev.2/static/css/main.23f4dc21.css.map",
+    "main.06502033.js.map": "/ecommercev.2/static/js/main.06502033.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23f4dc21.css",
+    "static/js/main.06502033.js"
+  ]
+}
