@@ -37,6 +37,10 @@ input {
     justify-content: center;
 }
 
+.filterp {
+    color: #283618;
+}
+
 @media (max-width: 800px) {
     .wrapper__filter {
         flex-direction: column;

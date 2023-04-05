@@ -90,7 +90,7 @@ const Search = () => {
                         </div>
                     ))
                 ) : (
-                    <p>No products found.</p>
+                    <p className="filterp">No products found.</p>
                 )}
             </div>
         </div>
