@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+    /* background: rgb(201, 154, 120);
+    background: radial-gradient(circle, rgba(201, 154, 120, 1) 31%, rgba(122, 84, 60, 1) 64%, rgba(98, 64, 43, 1) 85%);  */
+}
+
+.banner img {
+    height: 30rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.prod_header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #283618;
+    text-shadow: 4px 2px rgb(206, 227, 174);
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: overline;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+
+/* h2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251, 209, 153);
+    font-size: 60px;
+    text-shadow: 4px 2px black;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: overline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+} */

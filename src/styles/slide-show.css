@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mySlides img {
+    height: 95vh;
+    width: 100%;
+    filter: brightness(1.1);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    padding-top: 20px;
+    font-size: 60px;
+    letter-spacing: 35px;
+    /* font-style: italic; */
+
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    color: #283618;
+    text-shadow: 2px 2px #ccd5ae;
+    font-style: italic;
+}
+
+
+
+h4 {
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    /* font-family: 'East Sea Dokdo', cursive; */
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #283618;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    text-shadow: 2px 2px #ccd5ae;
+    font-style: italic;
+}
+
+
+
+
+/* .carousel .thumb {
+    display: none;
+} */
