@@ -15,3 +15,12 @@ describe('Search component', () => {
         ]);
     });
 });
+
+import React from "react";
+import { render } from "react-dom";
+import App from "./App";
+
+test("renders App component", () => {
+    const div = document.createElement("div");
+    render(<App />, div);
+});
