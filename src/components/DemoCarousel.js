@@ -9,15 +9,15 @@ class DemoCarousel extends Component {
 
         return (
             <Carousel autoPlay={true} interval={4000} infiniteLoop={true} showThumbs={false}>
-                <div>
+                <div className="roundnround">
                     <img src="./images/green.jpg" alt="perfume bottle"></img>
 
                 </div>
-                <div>
+                <div className="roundnround">
                     <img src="./images/blu.jpg" alt="perfume bottle"></img>
 
                 </div>
-                <div>
+                <div className="roundnround">
                     <img src="./images/wat.jpg" alt="perfume bottle"></img>
 
                 </div>

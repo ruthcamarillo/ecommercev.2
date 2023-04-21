@@ -74,6 +74,7 @@ h4 {
     align-items: center;
     justify-content: center;
     background: url("../stem.jpg") no-repeat center;
+
     max-height: 100vh;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -146,6 +147,35 @@ a {
     text-decoration: none;
     color: #283618;
     font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+    .homediv {
+        padding: 5rem;
+    }
+
+    .button2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .homediv {
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .button2 {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
 }
 
 
